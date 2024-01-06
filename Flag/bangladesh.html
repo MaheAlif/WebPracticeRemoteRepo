@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .flag {
+      background-color: #006a4e; /* Green background color */
+      width: 300px;
+      height: 200px;
+      position: relative;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      background-color: #e31c3d; /* Red circle color */
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="flag flag1">
+      <div class="circle"></div>
+    </div>
+    <div class="flag flag2">
+      <div class="circle"></div>
+    </div>
+  </div>
+</body>
+</html>
